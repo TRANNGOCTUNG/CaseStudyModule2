@@ -5,34 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db49f4a-2094-4508-a0ea-4e3d724523bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudyModule2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/AdminAccount" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/Bill" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/Company" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/Customer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/Input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/InputAcount" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/OutPut" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/OutPutAcount" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileSave/Production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/InputWarehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/OutputWarehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ObjectOutputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.tdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/account/InputAccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/account/OutputAccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1/AbstractDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1/MySQLDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1/PostgreDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileSave/InputAcount" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileSave/InputAccountManager" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,20 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.main">
     <configuration name="ObjectOutputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.ObjectOutputStreamExample" />
@@ -121,6 +109,12 @@
       <workItem from="1676358576811" duration="8767000" />
       <workItem from="1676387575492" duration="646000" />
       <workItem from="1676424820409" duration="131000" />
+      <workItem from="1676424970820" duration="193000" />
+      <workItem from="1676425172710" duration="3000" />
+      <workItem from="1676425646752" duration="15000" />
+      <workItem from="1676425664659" duration="225000" />
+      <workItem from="1676437022151" duration="4391000" />
+      <workItem from="1676449417281" duration="5430000" />
     </task>
     <servers />
   </component>
