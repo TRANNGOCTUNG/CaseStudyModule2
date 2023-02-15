@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db49f4a-2094-4508-a0ea-4e3d724523bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/account/InputAccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/account/OutputAccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1/AbstractDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1/MySQLDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1/PostgreDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileSave/InputAcount" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileSave/InputAccountManager" afterDir="false" />
-    </list>
+    <list default="true" id="3db49f4a-2094-4508-a0ea-4e3d724523bc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -114,7 +104,7 @@
       <workItem from="1676425646752" duration="15000" />
       <workItem from="1676425664659" duration="225000" />
       <workItem from="1676437022151" duration="4391000" />
-      <workItem from="1676449417281" duration="5430000" />
+      <workItem from="1676449417281" duration="5817000" />
     </task>
     <servers />
   </component>

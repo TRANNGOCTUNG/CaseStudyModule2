@@ -20,15 +20,15 @@ public class ProductManager implements CRUD<Product> {
     public String pathProduct = "src/fileSave/Production";
     @Override
     public Product create(Scanner scanner) {
-        int number;
-        if (listProducts.isEmpty()) {
-            number = index + 1;
-        } else {
-            number = listProducts.get(listProducts.size() - 1).getNumber() + 1;
-        }
-        System.out.println("Enter product code: ");
-        String code = scanner.nextLine();
-
+//        int number;
+//        if (listProducts.isEmpty()) {
+//            number = index + 1;
+//        } else {
+//            number = listProducts.get(listProducts.size() - 1).getNumber() + 1;
+//        }
+//        System.out.println("Enter product code: ");
+//        String code = scanner.nextLine();
+        return null;
     }
 
     @Override
